@@ -15,4 +15,7 @@ public class Rueda {
     public void setDiametro(double diametro) {
         this.diametro = diametro;
     }
+    public void mostrarInformacion() {
+        System.out.println("Diámetro: " + diametro);
+    }
 }
